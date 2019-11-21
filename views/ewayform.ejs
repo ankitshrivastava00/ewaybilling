@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<section class="topbar">
+  <div class="container">
+    <div class="row">
+      <div class="container">
+        <div class="row">
+           <div class="col-md-4">
+             
+           </div>
+          <div class="col-md-4">
+             <h2>E-way Bill System</h2>
+           </div>
+           <div class="col-md-4">
+             
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gst section -->
+<section class="gst-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="txt-white">GSTIN-01234567</h3>
+      </div>
+      <div class="col-md-4">
+        <h3 class="txt-white">Company Name</h3>
+      </div>
+      <div class="col-md-4">
+        <h3 class="txt-white">User-Transport</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gst section end -->
+
+<div class="container pt-5">
+  <div class="row">
+   <form width="100%" class="pay-form">
+    <div class="row border-section">
+      <div class="heading col-12 pt-2 pb-2"> Transaction detail </div>
+      
+         
+        <div class="col-12">
+          <label>Supply type</label>
+            <div class="form-check form-check-inline">
+              
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Outward">
+              <label class="form-check-label" for="inlineCheckbox1">Outward</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Intward">
+              <label class="form-check-label" for="inlineCheckbox2">Inward</label>
+            </div>
+        </div>
+        
+     
+      <div class="cleafix"> </div>
+        <div class="col-12 first-wrap form-center">
+          <label>Sub type</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Supply</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Export</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Job Work</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Skd/ckd/lots</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Recipient Not know</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">For Own Use</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Exhibition or fairs</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Line sale</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">other</label>
+              </div>
+        </div>
+        <div class="row first-wrap">
+          <div class="col-lg-3">
+             <select name="Document Type">
+                <option value="Document Type">Document Type</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+          </div>
+            <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="Document Number">
+          </div>
+
+          <div class="col-lg-3">
+            <input type="date" class="form-control" placeholder="Document Date">
+          </div>
+           <div class="col-lg-3">
+             <select name="Document Type">
+                <option value="Document Type">Document Type</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+          </div>
+        </div>
+      </div>
+           <div class="row border-section">
+              <div class="heading col-12 pt-2 pb-2"> Bill form </div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="first name">
+              </div>
+              <div class=" col-lg-6 pt-2 pb-2">
+                <textarea rows="4" cols="50" placeholder="address">
+                </textarea>
+              </div>
+              <div class=" col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="GSTIN">
+              </div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="place">
+              </div>
+              <div class="cleafix col-12">
+                ff
+              </div>
+               <div class=" col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="state">
+              </div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Pincode">
+              </div>
+           </div>
+            <div class="row border-section">
+              <div class="heading col-12 pt-2 pb-2"> Bill To</div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="first name">
+              </div>
+              <div class=" col-lg-6 pt-2 pb-2">
+                <textarea rows="4" cols="50" placeholder="address">
+                </textarea>
+              </div>
+              <div class=" col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="GSTIN">
+              </div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="place">
+              </div>
+              <div class="cleafix col-12">
+                ff
+              </div>
+               <div class=" col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="state">
+              </div>
+              <div class="col-lg-6 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Pincode">
+              </div>
+           </div>
+           <div class="row item-detail border-section">
+             <div class="heading col-12 pt-2 pb-2">Item Detail </div>
+             <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Product name">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Product Desciption">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="HSN">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Quantity">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="unit">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Value/texable value (in rs)">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+               <select name="Document Type">
+                <option value="GST">GST+SGST Rate(%)</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+               <select name="Document Type">
+                <option value="GST">iGST Rate(%)</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              </div>
+              <div class="col-lg-2 pt-2 pb-2">
+               <select name="Document Type">
+                <option value="GST">cess advol Rate(%)</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              </div>
+              <div class="col-lg-2 pt-2 pb-2">
+               <select name="Document Type">
+                <option value="GST">cess not advol Rate(%)</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="Totel Texable Acc">
+              </div>
+              <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="CGST Amount">
+              </div>
+              <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="SGST Amount">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="ISGST Amount">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="ISGST Amount">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="ISGST Amount">
+              </div>
+               <div class="col-lg-2 pt-2 pb-2">
+                <input type="text" class="form-control" placeholder="ISGST Amount">
+              </div>
+              </div>
+
+              <div class="row transport-detail border-section">
+                <div class="heading col-12 pt-2 pb-2">Transport Detail </div>
+                <div class="cleafix col-lg-12">aa </div>
+                <div class="col-lg-4">
+                   <input type="text" class="form-control" placeholder="transport-Name">
+                </div>
+                <div class="col-lg-4">
+                   <input type="text" class="form-control" placeholder="transport-ID">
+                </div>
+                <div class="col-lg-4">
+                   <input type="text" class="form-control" placeholder="Approx destance in km">
+                </div>
+              </div>
+             <div class="row form-b border-section">
+                <div class="heading col-12 pt-2 pb-2">Part B</div>
+                <div class="col-lg-6">
+                  <label> Mode</label>
+                  <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Road</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Rail</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Air</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Ship</label>
+              </div>
+                </div>
+                <div class="col-lg-6">
+                  <label> Vehlcle Type </label>
+                  <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Regular</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Over Dimensional Cargo</label>
+              </div>
+                </div>
+               <div class="col-lg-6 form-inline">
+                <label>Vehicle No.</label>
+                 <input type="text" class="form-control" placeholder="VehicleNo">
+               </div>
+                <div class="col-lg-6 form-inline">
+                <label>Transporter Doc. No & Date</label>
+                 <input type="text" class="form-control" placeholder="VehicleNo">
+                 <input type="date" name="" placeholder="">
+               </div>
+              <div class="col-12 pt-5 btn-grop">
+                <a href="#" class="btn btn-primary">
+                  preview 
+                </a>
+<script src="https://secure.ewaypayments.com/scripts/eCrypt.js"
+   class="eway-paynow-button"
+   data-publicapikey="epk-4C96B9FB-0371-47A9-83C3-541CB5D5D2DA"
+   data-amount="1000"
+   data-currency="AUD" 
+     data-invoiceref="INV-001"
+  data-invoicedescription="Coffee coffee"
+  data-email="caffinate@eway.com.au"
+  data-phone="1800 10 65 65"
+  data-allowedit="true" >
+</script>
+                <a href="#" class="btn btn-danger">exit</a>
+              </div>
+                
+              
+             </div>
+
+           </div>
+
+       
+      
+
+  </form>
+  </div>
+</div>
+
+</body>
+</html>
